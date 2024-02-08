@@ -1,0 +1,32 @@
+body{
+    background-color: bisque;
+}
+#message{
+    width: 200px;
+    height:300px;
+    border: 1px solid gray;
+    padding: 4px;
+    background-color: rgb(224, 249, 250);
+    margin-bottom: 4px;
+    overflow-y:scroll;/*hoch und runterscrollen*/
+}
+#message div{ /* Name und Zeit */
+    display:inline-block;
+    color:gray;
+    background-color: rgb(0,0,255,0.2);
+    border-radius:4px;
+    padding:2px;
+    margin-bottom: 2px;
+    font-size: 0.6rem;
+}
+#message div span{ /*Zeit*/
+    font-size: 0.6rem;
+    color:black;
+}
+#message .text{
+    background-color: rgb(0,0,255,0.5);
+    padding:0 4px 0 4px;
+    color:rgb(255, 255, 255);
+    margin-bottom: 4px;
+    font-size: 1rem;
+}
